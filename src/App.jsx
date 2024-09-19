@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Slider from './components/Slider';
 import RegistrationForm from './components/RegistrationForm';
-import Footer from './components/Footer'; // Import the Footer component
+import Footer from './components/Footer'; 
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);

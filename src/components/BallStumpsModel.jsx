@@ -1,4 +1,3 @@
-// BallStumpsModel.jsx
 import React, { useRef, useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
@@ -34,7 +33,6 @@ const BallStumpsModel = () => {
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} intensity={1} />
       <OrbitControls enableZoom={false} />
-      {/* Apply responsive scale */}
       <mesh ref={modelRef} scale={scale} position={[0, 0, 0]}>
         <primitive object={useGLTF('/models/ball-hitting-stump.glb').scene} />
       </mesh>

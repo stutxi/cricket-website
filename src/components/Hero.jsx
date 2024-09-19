@@ -1,6 +1,6 @@
 import React from 'react';
-import BallStumpsModel from './BallStumpsModel'; // Your 3D model component
-import Button from './Button'; // Import your Button component
+import BallStumpsModel from './BallStumpsModel'; 
+import Button from './Button'; 
 
 const Hero = ({ onRegisterClick }) => {
   return (
@@ -13,7 +13,7 @@ const Hero = ({ onRegisterClick }) => {
         <h1 className="text-5xl font-bold animate__animated animate__fadeInDown">Welcome to XYZ Cricket Tournaments</h1>
         <p className="mt-2 text-lg animate__animated animate__fadeIn animate__delay-1s">Join us for exciting cricket tournaments and showcase your talent!</p>
         <br />
-        <Button label="Register Now" onClick={onRegisterClick} /> {/* No need for class here */}
+        <Button label="Register Now" onClick={onRegisterClick} />
       </div>
 
       {/* 3D Model on the Right */}

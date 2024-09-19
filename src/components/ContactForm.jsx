@@ -1,4 +1,3 @@
-// src/components/ContactForm.jsx
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -18,7 +17,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submission logic here, e.g., send data to a server
+    // Add form submission logic here
     console.log('Form submitted:', formData);
     // Reset form
     setFormData({

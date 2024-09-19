@@ -17,7 +17,6 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [visibleImages, setVisibleImages] = useState(3);
 
-  // Update visible images on window resize
   const updateVisibleImages = () => {
     if (window.innerWidth >= 1024) {
       setVisibleImages(3); // 3 images for large screens
@@ -87,14 +86,13 @@ const Slider = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                {/* Updated for square images */}
                 <div className="relative w-full" style={{ paddingTop: '100%' }}> {/* 1:1 aspect ratio */}
                   <img
                     src={src}
                     alt={`Cricket ${index}`}
                     className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-lg"
                     onError={(e) => {
-                      e.target.src = '/images/placeholder.jpg'; // Fallback to placeholder image
+                      e.target.src = '/images/placeholder.jpg'; 
                     }}
                   />
                 </div>

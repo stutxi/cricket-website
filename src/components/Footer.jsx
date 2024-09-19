@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from './Button'; // Import your Button component
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Import social media icons
+import Button from './Button'; 
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; 
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -47,7 +47,6 @@ const Footer = () => {
         </form>
       )}
 
-      {/* Black stripe */}
       <div className="bg-black text-white py-2 mt-8">
         <p className="mb-1">© 2024 XYZ Cricket. All rights reserved.</p>
         <p className="mb-1">123 Cricket Lane, City, Country</p>
