@@ -2,16 +2,17 @@
 
 ## Overview
 
-This project is a dynamic, cricket-themed website developed for XYZ Organization. It features interactive elements, a multi-stage registration form, and is styled with Tailwind CSS.
+This project is a cricket-themed website developed for XYZ Organization. It features interactive elements, a multi-stage registration form, and is styled with Tailwind CSS. The website also incorporates animations using Framer Motion to enhance user experience and add a modern touch to the design.
 
 ## Project Structure
 
 - **public/**
-  - **images/**: Contains image files
-  - **models/**: Contains 3D model files
+  - **images/**: Contains image files.
+  - **models/**: Contains 3D model files.
 - **src/**
-  - **components/**: Contains React components
-  - **App.jsx**: Main application file
+  - **components/**: Contains React components.
+  - **App.jsx**: Main application file.
+  - **main.jsx**: Entry point for the React application.
 
 ## Setup Instructions
 
@@ -20,3 +21,19 @@ This project is a dynamic, cricket-themed website developed for XYZ Organization
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+
+2. **Install dependencies**
+   Ensure you have Node.js installed. Run the following command to install dependencies:
+
+   ```bash
+   npm install
+
+3. **Run the Development Server**
+   Start the development server with Vite:
+
+   ```bash
+   npm run dev
+
+You will be able to view the project locally now.
+
+
