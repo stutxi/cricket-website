@@ -55,4 +55,5 @@ You will be able to view the project locally now.
 - **Build Tool**: Vite for fast and optimized development builds
 - **Deployment**: Vercel for seamless hosting and deployment
 
+The 3D model is taken from [Sketchfab](https://sketchfab.com/3d-models/ball-hitting-stump-6424b678593043af8b44cb0d4b863bcd).
 
