@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a cricket-themed website developed for XYZ Organization. It features interactive elements, a multi-stage registration form, and is styled with Tailwind CSS. The website also incorporates animations using Framer Motion to enhance user experience and add a modern touch to the design.
+This also has a cool custom pointer.
 
 ## Project Structure
 
