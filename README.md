@@ -42,6 +42,7 @@ You will be able to view the project locally now.
 - **3D model integration**: A cricket ball hitting the stumps, embedded using **Three.js** for added interactivity.
 - **Slider component**: A responsive and animated image slider with smooth navigation and transitions.
 - **Custom buttons**: Buttons with hover effects and animations, enhancing user interactivity.
+- **Responsive design**: The site is optimized for both desktop and mobile screens.
 - **Contact form**: A contact form with submission capabilities.
 - **Footer with Social Media icons**: Includes a 'rights reserved' message, social icons, and contact info.
 
