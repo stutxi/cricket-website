@@ -1,8 +1,22 @@
-# React + Vite
+# Cricket-Themed Web Development Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a dynamic, cricket-themed website developed for XYZ Organization. It features interactive elements, a multi-stage registration form, and is styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
+
+- **public/**
+  - **images/**: Contains image files
+  - **models/**: Contains 3D model files
+- **src/**
+  - **components/**: Contains React components
+  - **App.jsx**: Main application file
+
+## Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
