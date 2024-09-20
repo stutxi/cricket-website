@@ -37,3 +37,20 @@ This project is a cricket-themed website developed for XYZ Organization. It feat
 You will be able to view the project locally now.
 
 
+## Features
+- **Multi-stage registration form**: A step-by-step form that ensures smooth and user-friendly registration.
+- **3D model integration**: A cricket ball hitting the stumps, embedded using **Three.js** for added interactivity.
+- **Slider component**: A responsive and animated image slider with smooth navigation and transitions.
+- **Custom buttons**: Buttons with hover effects and animations, enhancing user interactivity.
+- **Contact form**: A contact form with submission capabilities.
+- **Footer with Social Media icons**: Includes a 'rights reserved' message, social icons, and contact info.
+
+## Tech Stack
+- **Frontend Framework**: React
+- **Styling**: Tailwind CSS for rapid styling and layout customization
+- **Animations**: Framer Motion for modern, smooth animations
+- **3D Models**: Three.js for embedding and managing 3D models
+- **Build Tool**: Vite for fast and optimized development builds
+- **Deployment**: Vercel for seamless hosting and deployment
+
+
